@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES2015",
+		"module": "ES2015",
+		"moduleResolution": "Node16",
+		"rootDir": "ts",
+		"outDir": "js",
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+	},
+	"include": [
+		"ts/**/*"
+	]
+}

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300");
+body {
+  text-align: center;
+  background-color: rgb(3, 0, 22);
+  color: aliceblue;
+  user-select: none;
+  overflow: hidden;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.column, .colon {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 86px;
+  line-height: 86px;
+  transition: transform 300ms;
+  transform: translateY(calc(50vh - 43px));
+}
+
+.colon {
+  transition: transform 300ms;
+}
+.colon:after {
+  content: ":";
+}
+
+.num {
+  opacity: 0.025;
+  transition: opacity 300ms;
+}
+.num#visible {
+  opacity: 1;
+}
+.num#close {
+  opacity: 0.35;
+}
+.num#far {
+  opacity: 0.2;
+}
+.num#distant {
+  opacity: 0.1;
+}
+
+/*# sourceMappingURL=styles.css.map */
